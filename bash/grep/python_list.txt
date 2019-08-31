@@ -1,0 +1,12 @@
+awesomepy.com
+aWeSoMePy.CoM
+AWESOMEPY.COM
+flask.pocoo.org
+djangoproject.com
+ml flow
+python.org
+pandas.pydata.org
+regex
+numpy.org
+scipy.org
+scikit-learn.org

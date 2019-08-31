@@ -1,0 +1,6 @@
+name: awesomepy-notebook-environment
+channels:
+  - conda-forge
+dependencies:
+  - flask
+  - flask-sqlalchemy
