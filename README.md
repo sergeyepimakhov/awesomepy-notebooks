@@ -1,10 +1,78 @@
-# awesomepy-notebooks
+# Awesome Notebooks
 
-# teaching and learning witn notebooks
-https://jupyter4edu.github.io/jupyter-edu-book/why-we-use-jupyter-notebooks.html
+- [ ] Shells
+   - [ ] Bash 
+        - [ ] Basics
+        - [ ] Command Line Tools
+            - [x] echo
+            - [ ] sort
+            - [ ] time
+            - system
+                - [ ] uname
+                - [ ] date
+                - [ ] cal
+            - directories
+                - [x] pwd
+                - [x] ls
+                - [x] cd
+                - [ ] mkdir
+                - [ ] rmdir
+            - file operations
+                - [ ] touch
+                - [ ] cp
+                - [ ] mv
+                - [ ] rm
+            - file examination
+                - [ ] cat
+                - [ ] more (or less)
+                - [ ] head (or tail)
+                - [ ] wc
+                - [ ] du
+                - [ ] diff
+            - file permissions
+                - [ ] chmod
+                - [ ] chown
+                - [ ] chgrp
+                - [ ] umask (?)
+            - searching and sorting
+                - [ ] grep
+                - [ ] find
+                - [ ] locate
+                - [ ] which
+                - [ ] sort (?)
+                - [ ] uniq?
+                - [ ] xargs 
+                
+        - [ ] shell scripting
+            - [ ] Logical Operations 
+            - [ ] Functions
+            - [ ] Arrays
+            - [ ] Dictionaries
 
-#  nbgrader
-https://nbgrader.readthedocs.io/en/latest/index.html
+- [ ] Source Control
+   - [ ] Git
+   
+- [ ] Virtual Environments
+    - [ ] Virtualenv
+    - [ ] Conda
+        - [] create env
+        - 
 
-# activity for quizzers
-https://jupyter.brynmawr.edu/services/public/dblank/Activity%20Magic.ipynb
+- [ ] Web Development
+   - [ ] Flask
+      - [ ] Jinja2
+   - [ ] Django
+      - [ ] Django Templates
+
+- [ ] IDEs
+   - [ ] IntelIJ
+
+- [ ] Jupyter
+
+- [ ] Markdown
+
+- [ ] Containers
+    - [ ] Docker
+
+
+ 
