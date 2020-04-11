@@ -15,8 +15,8 @@
                 - [x] pwd
                 - [x] ls
                 - [x] cd
-                - [ ] mkdir
-                - [ ] rmdir
+                - [x] mkdir
+                - [x] rmdir
             - file operations
                 - [ ] touch
                 - [ ] cp
