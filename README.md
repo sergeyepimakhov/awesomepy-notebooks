@@ -2,21 +2,18 @@
 
 - [ ] Shells
    - [ ] Bash 
-        - [ ] Basics
-        - [ ] Command Line Tools
-            - [x] echo
-            - [ ] sort
-            - [ ] time
+        - Command Line Tools
+            - basic shell
+                - [x] echo
+                - [ ] sort (?)
             - system
                 - [ ] uname
-                - [ ] date
-                - [ ] cal
             - directories
                 - [x] pwd
                 - [x] ls
                 - [x] cd
                 - [x] mkdir
-                - [x] rmdir
+                - [x] ~~rmdir~
             - file operations
                 - [ ] touch
                 - [ ] cp
@@ -42,6 +39,10 @@
                 - [ ] sort (?)
                 - [ ] uniq?
                 - [ ] xargs 
+            - date and time
+                - [ ] date
+                - [ ] cal
+                - [ ] time
                 
         - [ ] shell scripting
             - [ ] Logical Operations 
