@@ -15,8 +15,8 @@
                 - [x] mkdir
                 - [x] ~~rmdir~
             - file operations
-                - [ ] touch
-                - [ ] cp
+                - [x] touch
+                - [x] cp
                 - [ ] mv
                 - [ ] rm
             - file examination
