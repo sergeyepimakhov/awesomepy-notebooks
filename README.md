@@ -11,6 +11,7 @@
             - directories
                 - [x] pwd
                 - [x] ls
+                - [ ] tree
                 - [x] cd
                 - [x] mkdir
                 - [x] ~~rmdir~
