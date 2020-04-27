@@ -1,6 +1,6 @@
 - Command Line Tools
   - basic shell
-   - [x] echo
+   - [x] echo - Displaying text
    - [ ] sort (?)
   - system
    - [ ] uname
@@ -14,8 +14,8 @@
   - file operations
    - [x] touch
    - [x] cp
-   - [ ] mv
-   - [ ] rm
+   - [x] mv
+   - [x] rm
   - file examination
    - [ ] cat
    - [ ] more (or less)
