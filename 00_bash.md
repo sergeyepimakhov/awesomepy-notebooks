@@ -17,10 +17,12 @@
    - [x] mv
    - [x] rm
   - file examination
-   - [ ] cat
-   - [ ] more (or less)
-   - [ ] head (or tail)
-   - [ ] wc
+   - [x] cat
+   - [ ] more (can'be implemented -> GIF)
+   - [ ] less (can'be implemented -> GIF)
+   - [x] head
+   - [x] tail
+   - [x] wc
    - [ ] du
    - [ ] diff
   - file permissions
@@ -39,7 +41,10 @@
   - date and time
    - [ ] date
    - [ ] cal
-   - [ ] time    
+   - [ ] time  
+   
+  - text processing
+   - [ ] cut   
         
   - [ ] shell scripting
    - [ ] Logical Operations 
