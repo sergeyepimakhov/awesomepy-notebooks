@@ -1,3 +1,4 @@
+notebook
 flask
 flask-sqlalchemy
 pandas
