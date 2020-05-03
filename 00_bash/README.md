@@ -1,9 +1,9 @@
 - Command Line Tools
   - basic shell
    - [x] echo - Displaying text
-   - [ ] sort (?)
   - system
    - [ ] uname
+   - [ ] whoami
   - navigating filesystem
    - [x] pwd
    - [x] ls
@@ -47,25 +47,21 @@
    - [ ] zip/unzip
    - [ ] tar
    - [ ] gzip/gunzip
-   - [ ] 
   - date and time
    - [ ] date
    - [ ] cal
    - [ ] time (move to manage process)
-   
   - text processing
    - [ ] sort
    - [ ] uniq
    - [ ] cut   
-   - [ ] awk (gawk)
+   - [ ] awk / gawk
    - [ ] sed
-   
+  - disk usage
+   - [ ] du
+   - [ ] df
   - getting help
    - [ ] man
-   
-  - disk usage
-    - [ ] du
-    - [ ] df
         
   -  shell scripting
    - [ ] Logical Operations 

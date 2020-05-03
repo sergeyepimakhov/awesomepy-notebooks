@@ -1,32 +1,29 @@
 # Awesome Notebooks
 
-- [ ] Shells
+> An example is better than thousands words
+
+All you need to know to become full-stack python developer.
+
+The road map:
+
+- Shells
    - [ ] Bash 
    - [ ] Power Shell
-
-- [ ] Source Control
+- Source Control
    - [ ] Git
-   
-- [ ] Virtual Environments
+- Markdown    
+- Jupyter
+- Virtual Environments
     - [ ] Virtualenv
     - [ ] Conda
-
-- [ ] Web Development
+- Web Development
    - [ ] Flask
-      - [ ] Jinja2
    - [ ] Django
-      - [ ] Django Templates
-
 - [ ] IDEs
    - [ ] IntelIJ
-
-- [ ] Jupyter
-
-- [ ] Markdown
-
+- Big Data
+  - [ ] Spark
 - [ ] Containers
-    - [ ] Docker
-    
 - [ ] Misc
 
 
