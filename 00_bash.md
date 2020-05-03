@@ -4,50 +4,82 @@
    - [ ] sort (?)
   - system
    - [ ] uname
-  - directories
+  - navigating filesystem
    - [x] pwd
    - [x] ls
-   - [x] tree
    - [x] cd
-   - [x] mkdir
-   - [x] ~~rmdir~
-  - file operations
+   - [x] tree (optional)
+  - file and directory operations
    - [x] touch
+   - [x] mkdir
    - [x] cp
    - [x] mv
    - [x] rm
-  - file examination
+   - [ ] ln
+  - viewing files
    - [x] cat
    - [ ] more (can'be implemented -> GIF)
    - [ ] less (can'be implemented -> GIF)
    - [x] head
    - [x] tail
+  - file examination
    - [x] wc
-   - [ ] du
-   - [ ] diff
+   - [ ] du (move to smt, or duplicate)
+   - [ ] diff (move to smt)    
+  - editing files ()
+   - [ ] vi / vim
+   - [ ] nano
+   - [ ] ~~emacs (?)~~
   - file permissions
    - [ ] chmod
    - [ ] chown
    - [ ] chgrp
    - [ ] umask (?)
-  - searching and sorting
-   - [ ] grep
+  - searching and sorting(?)
+   - [ ] grep (grep, awk, sed)
    - [ ] find
    - [ ] locate
    - [ ] which
    - [ ] sort (?)
    - [ ] uniq?
    - [ ] xargs 
+  - compression
+   - [ ] zip/unzip
+   - [ ] tar
+   - [ ] gzip/gunzip
+   - [ ] 
   - date and time
    - [ ] date
    - [ ] cal
-   - [ ] time  
+   - [ ] time (move to manage process)
    
   - text processing
+   - [ ] sort
+   - [ ] uniq
    - [ ] cut   
+   - [ ] awk (gawk)
+   - [ ] sed
+   
+  - getting help
+   - [ ] man
+   
+  - disk usage
+    - [ ] du
+    - [ ] df
         
-  - [ ] shell scripting
+  -  shell scripting
    - [ ] Logical Operations 
    - [ ] Functions
    - [ ] Arrays
    - [ ] Dictionaries
+   
+  - unsorted
+   - [ ] xargs
+   - [ ] sort
+   - [ ] uniq
+   - [ ] cut   
+   - [ ] awk (gawk)
+   - [ ] sed
+   
+  - useless:
+    - [x] ~~rmdir~
