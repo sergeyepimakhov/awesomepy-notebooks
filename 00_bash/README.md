@@ -4,7 +4,7 @@
   - system
    - [ ] uname
    - [ ] whoami
-  - navigating filesystem
+  - filesystem navigation
    - [x] pwd
    - [x] ls
    - [x] cd
@@ -24,26 +24,23 @@
    - [x] tail
   - file examination
    - [x] wc
-   - [ ] du (move to smt, or duplicate)
-   - [ ] diff (move to smt)    
+   - [x] diff
+   - [ ] du (move to smt, or duplicate)   
   - editing files ()
-   - [ ] vi / vim
    - [ ] nano
+   - [ ] vi / vim
    - [ ] ~~emacs (?)~~
   - file permissions
    - [ ] chmod
    - [ ] chown
    - [ ] chgrp
    - [ ] umask (?)
-  - searching and sorting(?)
-   - [ ] grep (grep, awk, sed)
+  - searching files
+   - [wip] locate
    - [ ] find
-   - [ ] locate
    - [ ] which
-   - [ ] sort (?)
-   - [ ] uniq?
-   - [ ] xargs 
-  - compression
+   - [ ] grep
+  - file compression
    - [ ] zip/unzip
    - [ ] tar
    - [ ] gzip/gunzip
