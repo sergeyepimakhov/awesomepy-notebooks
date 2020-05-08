@@ -22,8 +22,11 @@ The road map:
 - [ ] IDEs
    - [ ] IntelIJ
 - Big Data
-  - [ ] Spark
+  - [ ] Hadoop
+  - [ ] PySpark
 - [ ] Containers
+  - Docker [ ]
+  - Kub
 - [ ] Misc
 
 
