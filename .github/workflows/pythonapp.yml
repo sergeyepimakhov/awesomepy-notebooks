@@ -10,9 +10,14 @@ on:
     branches: [ master ]
 
 jobs:
-  test-ubuntu:
+  test-notebooks:
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    # runs-on: # ubuntu-latest
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
 
     steps:
     - uses: actions/checkout@v2
@@ -37,32 +42,3 @@ jobs:
     - name: Run Notebooks
       run: |
         find . -name 'notebook.ipynb' -exec jupyter nbconvert --inplace  --execute {} +
-
-  test-macos:
-
-    runs-on: macos-latest
-
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.8
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: Install missing dependencies
-        run: |
-          sudo apt-get install tree -y
-      - name: Lint with flake8
-        run: |
-          pip install flake8
-          # stop the build if there are Python syntax errors or undefined names
-          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-          # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-      - name: Run Notebooks
-        run: |
-          find . -name 'notebook.ipynb' -exec jupyter nbconvert --inplace  --execute {} +
-
