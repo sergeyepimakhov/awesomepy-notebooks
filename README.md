@@ -25,7 +25,7 @@ The road map:
   - [ ] Hadoop
   - [ ] PySpark
 - [ ] Containers
-  - Docker [ ]
+  - Docker
   - Kub
 - [ ] Misc
 

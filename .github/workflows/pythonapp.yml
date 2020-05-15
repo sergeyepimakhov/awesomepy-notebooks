@@ -13,7 +13,6 @@ jobs:
   test-notebooks:
 
     runs-on: ${{ matrix.os }}
-    # runs-on: # ubuntu-latest
 
     strategy:
       matrix:
@@ -25,11 +24,11 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.8
-    - name: Install dependencies
+    - name: Install python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Install missing dependencies, depending on platform
+    - name: Install missing platform dependencies
       run: |
         find . -name 'prerequisites.sh' -exec bash {} +
     - name: Lint with flake8

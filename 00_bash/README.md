@@ -1,78 +1,134 @@
-- Command Line Tools
-  - basic shell
-   - [x] echo - Displaying text
-  - system
-   - [ ] uname
-   - [ ] whoami
-  - filesystem navigation
-   - [x] pwd
-   - [x] ls
-   - [x] cd
-   - [x] tree (optional)
-  - file and directory operations
-   - [x] touch
-   - [x] mkdir
-   - [x] cp
-   - [x] mv
-   - [x] rm
-   - [ ] ln
-  - viewing files
-   - [x] cat
-   - [ ] more (can'be implemented -> GIF)
-   - [ ] less (can'be implemented -> GIF)
-   - [x] head
-   - [x] tail
-  - file examination
-   - [x] wc
-   - [x] diff
-   - [ ] du (move to smt, or duplicate)   
-  - editing files ()
-   - [ ] nano
-   - [ ] vi / vim
-   - [ ] ~~emacs (?)~~
-  - file permissions
-   - [ ] chmod
-   - [ ] chown
-   - [ ] chgrp
-   - [ ] umask (?)
-  - searching files
-   - [wip] locate
-   - [ ] find
-   - [ ] which
-   - [ ] grep
-  - file compression
-   - [ ] zip/unzip
-   - [ ] tar
-   - [ ] gzip/gunzip
-  - date and time
-   - [ ] date
-   - [ ] cal
-   - [ ] time (move to manage process)
-  - text processing
-   - [ ] sort
-   - [ ] uniq
-   - [ ] cut   
-   - [ ] awk / gawk
-   - [ ] sed
-  - disk usage
-   - [ ] du
-   - [ ] df
-  - getting help
-   - [ ] man
-        
-  -  shell scripting
-   - [ ] Logical Operations 
-   - [ ] Functions
-   - [ ] Arrays
-   - [ ] Dictionaries
+# Bash
+
+- Basics
+  - Wildcards
+  - Input/Output redirection
+  - Pipe
+  - Combining commands
+  - Shortcuts
+  - Superuser
+- Commands
+  - (A) Getting Started
+    - [x] echo
+    - [x] ls
+    - [x] cd
+    - [x] pwd
+  - (B) File Operations
+    - [x] touch
+    - [x] cp
+    - ln
+  - (C) Directory Operations
+    - [x] mkdir
+    - basename
+    - dirname 
+  - (D) Files Moving and Deleting
+    - [x] mv
+    - [x] rm
+  - (E) Directory Tree Viewing
+    - [x] tree (advanced)
+  - (F) File Viewing
+    - [x] cat
+    - [x] head
+    - [x] tail
+    - less (interactive)
+    - more (interactive)
+  - (G) File Properties
+    - [x] wc
+    - du
+    - file
+    - touch
+  - (H) File Comparison 
+    - [x] diff
+    - comm
+    - md5sum 
+  - (I) File Permissions
+    - chmod
+    - chown
+    - chgrp
+  - (J) File Location
+    - find
+    - [x] locate
+    - which
+    - xargs (why here?)
+  - (K) Screen Output
+    - echo
+    - printf
+    - seq
+    - clear
+    - yes (?)
+  - (L) File Text Manipulation
+    - grep (egrep, fgrep) short -> separately 
+    - cut
+    - paste
+    - tr
+    - sort
+    - uniq
+    - tee
+    - (awk) short -> separately 
+    - (sed) short -> separately 
+  - (M) File Compression
+    - tar (.tar)
+    - gzip/gunzip (.gz)
+    - bzip2/bunzip2 (.bz2)
+    - zip/unzip (.zip)
+  - (N) Web
+    - wget
+    - curl
+  - (O) Host Information
+    - uname
+    - hostname
+    - ifconfig
+  - (P) Host Location
+    - ping
+    - nc
+    - host
+    - whois
+  - (Q) Network Connections
+    - ssh
+    - scp
+    - sftp
+    - ftp
+  - (R) Disk and Filessystem
+    - df
+  - (S) Viewing Processes
+    - ps
+    - top (interactive)
+  - (T) Controlling Processes
+    - kill
+  - (U) Scheduling Jobs
+    - sleep
+    - crontab
+    - at (optional)
+    - watch (interactive)
+  - (V) User and His Environment
+    - whoami
+    - id
+    - printenv
+  - (W) User Account Management
+    - passwd
+  - (X) Math and Calculations
+    - expr
+  - (Y) Dates and Times
+    - time
+    - date
+  - (Z) Graphics
+    - convert
+  - Installing Software
+    - apt
+    - yum
+    - rpm
+    - brew
+  - History
+    - history
+  - Getting Help
+- Shell Scripting
+  - Getting Started
+  - Variables
+  - Functions
+  - Loops
+  - Conditionals
+- File Editors
+  - nano  (interactive)
+  - vim   (interactive)
+  - emacs (interactive)
    
-  - unsorted
-   - [ ] xargs
-   - [ ] sort
-   - [ ] uniq
-   - [ ] cut   
-   - [ ] awk (gawk)
-   - [ ] sed
-   
-  - useless:
-    - [x] ~~rmdir~
