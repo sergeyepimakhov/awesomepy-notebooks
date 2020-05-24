@@ -1,13 +1,15 @@
 # Bash
 
-- Basics
-  - Wildcards
-  - Input/Output redirection
-  - Pipe
-  - Combining commands
-  - Shortcuts
-  - Superuser
-- Commands
+- Shell
+  - [x] Quoting
+  - [x] Wildcards
+  - [x] Brace Expansion
+  - [x] Redirection
+  - [wip] Command Forms
+  - [x] Exit Status
+  - [wip] Shortcuts
+  - (Superuser)
+- Unix Commands
   - (A) Getting Started
     - [x] echo
     - [x] ls
