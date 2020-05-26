@@ -158,7 +158,7 @@ def index():
 @app.route('/<path:path>')
 def render_notebook(path):
     # notebook.ipynb?lab=true
-    is_lab = request.args.get('lab')
+    is_classic = request.args.get('classic')
 
     nb = None
     try:
@@ -166,7 +166,7 @@ def render_notebook(path):
     except Exception as e:
         exit(1)
 
-    if is_lab:
-        return render_template('/lab/index.html.j2', nb=nb, resources=resources)
-    else:
+    if is_classic:
         return render_template('/classic/index.html.j2', nb=nb, resources=resources)
+    else:
+        return render_template('/lab/index.html.j2', nb=nb, resources=resources)
