@@ -8,6 +8,20 @@
   - [wip] Command Forms
   - [x] Exit Status
   - [wip] Shortcuts
+  - Variables
+  - Variable Substitution
+  - Arithmetic Expressions
+  - Arrays
+  - Functions
+  - for
+  - while
+  - until
+  - select
+  - case
+  - break
+  - if
+  - Conditionals
+  
   - (Superuser)
 - Unix Commands
   - (A) Getting Started
@@ -124,11 +138,27 @@
     - history
   - Getting Help
 - Shell Scripting
-  - Getting Started
+  - Creating Script
+  - Running Script
+  - Whitespace
+  - Linebreak
   - Variables
+  - Input
+  - Output
+  - Arithmetic Expressions
+  - Test Command
+  - File Tests
+  - String Tests
+  - Numeric Tests
+  - Combining and Negating Tests
   - Functions
-  - Loops
-  - Conditionals
+  - Arrays
+  - if Statement
+  - for Loop
+  - while Loop
+  - until Loop
+  - select Loop
+  - Getting Options
 - File Editors
   - nano  (interactive)
   - vim   (interactive)
