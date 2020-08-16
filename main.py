@@ -158,7 +158,8 @@ def index():
 @app.route('/<path:path>')
 def render_notebook(path):
     # notebook.ipynb?lab=true
-    is_classic = request.args.get('classic')
+    # is_classic = request.args.get('classic')
+    is_classic = True
 
     nb = None
     try:
@@ -170,3 +171,8 @@ def render_notebook(path):
         return render_template('/classic/index.html.j2', nb=nb, resources=resources)
     else:
         return render_template('/lab/index.html.j2', nb=nb, resources=resources)
+
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=8080, debug=True)
+

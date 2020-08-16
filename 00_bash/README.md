@@ -138,27 +138,30 @@
     - history
   - Getting Help
 - Shell Scripting
-  - Creating Script
-  - Running Script
-  - Whitespace
-  - Linebreak
-  - Variables
-  - Input
-  - Output
-  - Arithmetic Expressions
-  - Test Command
-  - File Tests
-  - String Tests
-  - Numeric Tests
-  - Combining and Negating Tests
-  - Functions
-  - Arrays
-  - if Statement
-  - for Loop
-  - while Loop
-  - until Loop
-  - select Loop
-  - Getting Options
+  - [x] (A) Creating Script
+  - [x] (B) Running Script
+  - [x] (C) Linebreak
+  - [x] (D) Variables
+  - (E) Export
+  - [x] (F) Input
+  - [x] (G) Output
+  - (H) Arithmetic Expressions
+  - [x] (I) Test a Condition
+  - [x] (J) File Conditions
+  - [x] (K) Numeric Conditions
+  - [x] (L) String Conditions
+  - [x] (M) Pattern matching
+  - [x] (N) Regexp Conditions
+  - (O) Functions
+  - (P) Arrays
+  - (Q) Dictionaries
+  - (R) if Statement
+  - (S) for Loop
+  - (T) while Loop
+  - (U) until Loop
+  - (V) select Loop
+  - (W) case/switch
+  - (X) Getting Options
 - File Editors
   - nano  (interactive)
   - vim   (interactive)
