@@ -17,10 +17,20 @@
 button.thebelab-restart-button {
   display: none;
 }
-button.thebelab-run-button:after {
-  color: #2A00FF; /* blue from eclipse*/
+button.thebelab-run-button {
+  display: none;
 }
+/* blue from eclipse*/
+/*
+button.thebelab-run-button:after {
+  color: #2A00FF;
+}*/
 /* buttons end */
+
+/* left blue line selected (hotfix) */
+div.cell.selected:before {
+   left: -3px;
+}
 
 /* markdown */
 /*@font-face { */
