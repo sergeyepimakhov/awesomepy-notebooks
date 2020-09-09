@@ -1,29 +1,21 @@
 # Bash
 
-- Shell
-  - [x] Quoting
-  - [x] Wildcards
-  - [x] Brace Expansion
-  - [x] Redirection
-  - [wip] Command Forms
-  - [x] Exit Status
-  - [wip] Shortcuts
-  - Variables
-  - Variable Substitution
-  - Arithmetic Expressions
-  - Arrays
-  - Functions
-  - for
-  - while
-  - until
-  - select
-  - case
-  - break
-  - if
-  - Conditionals
+- Shell (Redundant: to be deleted) -> rename to unix, or 00_bash -> linux: system, bash, utilities
+  - (I) Variable Substitution (duplicate?)
+  - (J) Arithmetic Expressions (duplicate?)
+  - (K) Arrays (duplicate?)
+  - (L) Functions (duplicate?)
+  - (M) for (duplicate?)
+  - (N) while (duplicate?)
+  - (O) until (duplicate?)
+  - (P)select (duplicate?)
+  - (Q) case (duplicate?)
+  - (R) break (duplicate?)
+  - (S) if (duplicate?)
+  - (T) Conditionals (duplicate?)
   
   - (Superuser)
-- Unix Commands
+- Utilities
   - (A) Getting Started
     - [x] echo
     - [x] ls
@@ -137,33 +129,47 @@
   - History
     - history
   - Getting Help
-- Shell Scripting
-  - [x] (A) Creating Script
-  - [x] (B) Running Script
-  - [x] (C) Linebreak
-  - [x] (D) Variables
-  - (E) Export
-  - [x] (F) Input
-  - [x] (G) Output
-  - (H) Arithmetic Expressions
-  - [x] (I) Test a Condition
-  - [x] (J) File Conditions
-  - [x] (K) Numeric Conditions
-  - [x] (L) String Conditions
-  - [x] (M) Pattern matching
-  - [x] (N) Regexp Conditions
-  - (O) Functions
-  - (P) Arrays
-  - (Q) Dictionaries
-  - (R) if Statement
-  - (S) for Loop
-  - (T) while Loop
-  - (U) until Loop
-  - (V) select Loop
-  - (W) case/switch
-  - (X) Getting Options
+- Scripting (or just 'Shell')
+  - [x] (00) Quoting
+  - [x] (01) Wildcards
+  - [x] (02) Brace Expansion
+  - [x] (03) Redirection
+  - [x] (04) Command Forms
+  - [x] (05) Linebreak
+  - [x] (06) Variables
+  - [x] (07) Variable Assignment (duplicate?)
+  - (08) Export
+  - [x] (09) Input
+  - [x] (10) Output
+  - (11) Arithmetic Expressions
+  - [x] (12) Test a Condition
+  - [x] (13) File Conditions
+  - [x] (14) Numeric Conditions
+  - [x] (15) String Conditions
+  - [x] (16) Pattern matching
+  - [x] (17) Regexp Conditions
+  - [x] (18) Creating Script
+  - [x] (19) Running Script
+  - [x] (20) Exit Status
+  - (21) Functions
+  - (22) Arrays
+  - (23) Dictionaries
+  - (24) if Statement
+  - (25) for Loop
+  - (26) while Loop
+  - (27) until Loop
+  - (28) select Loop
+  - (29) case/switch
+  - (30) Getting Options
+  - [wip] (31) Shortcuts
 - File Editors
   - nano  (interactive)
   - vim   (interactive)
   - emacs (interactive)
+  
+- More About
+  - [https://devhints.io/bash]
+  - [https://tldp.org/guides.html#abs]
+  - [https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc5]
+  - [https://tldp.org/LDP/abs/html/index.html]
    
