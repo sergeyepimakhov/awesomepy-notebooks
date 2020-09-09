@@ -1,70 +1,54 @@
 # Bash
-
-- Shell (Redundant: to be deleted) -> rename to unix, or 00_bash -> linux: system, bash, utilities
-  - (I) Variable Substitution (duplicate?)
-  - (J) Arithmetic Expressions (duplicate?)
-  - (K) Arrays (duplicate?)
-  - (L) Functions (duplicate?)
-  - (M) for (duplicate?)
-  - (N) while (duplicate?)
-  - (O) until (duplicate?)
-  - (P)select (duplicate?)
-  - (Q) case (duplicate?)
-  - (R) break (duplicate?)
-  - (S) if (duplicate?)
-  - (T) Conditionals (duplicate?)
-  
-  - (Superuser)
 - Utilities
-  - (A) Getting Started
+  - (00) Getting Started
     - [x] echo
     - [x] ls
     - [x] cd
     - [x] pwd
-  - (B) File Operations
+  - (01) File Operations
     - [x] touch
     - [x] cp
     - ln
-  - (C) Directory Operations
+  - (02) Directory Operations
     - [x] mkdir
     - basename
     - dirname 
-  - (D) Files Moving and Deleting
+  - (03) Files Moving and Deleting
     - [x] mv
     - [x] rm
-  - (E) Directory Tree Viewing
+  - (04) Directory Tree Viewing
     - [x] tree (advanced)
-  - (F) File Viewing
+  - (05) File Viewing
     - [x] cat
     - [x] head
     - [x] tail
     - less (interactive)
     - more (interactive)
-  - (G) File Properties
+  - (06) File Properties
     - [x] wc
     - du
     - file
     - touch
-  - (H) File Comparison 
+  - (07) File Comparison 
     - [x] diff
     - comm
     - md5sum 
-  - (I) File Permissions
+  - (08) File Permissions
     - chmod
     - chown
     - chgrp
-  - (J) File Location
+  - (09) File Location
     - find
     - [x] locate
     - which
     - xargs (why here?)
-  - (K) Screen Output
+  - (10) Screen Output
     - echo
     - printf
     - seq
     - clear
     - yes (?)
-  - (L) File Text Manipulation
+  - (11) File Text Manipulation
     - grep (egrep, fgrep) short -> separately 
     - cut
     - paste
@@ -74,52 +58,52 @@
     - tee
     - (awk) short -> separately 
     - (sed) short -> separately 
-  - (M) File Compression
+  - (12) File Compression
     - tar (.tar)
     - gzip/gunzip (.gz)
     - bzip2/bunzip2 (.bz2)
     - zip/unzip (.zip)
-  - (N) Web
+  - (13) Web
     - wget
     - curl
-  - (O) Host Information
+  - (14) Host Information
     - uname
     - hostname
     - ifconfig
-  - (P) Host Location
+  - (15) Host Location
     - ping
     - nc
     - host
     - whois
-  - (Q) Network Connections
+  - (16) Network Connections
     - ssh
     - scp
     - sftp
     - ftp
-  - (R) Disk and Filessystem
+  - (17) Disk and Filessystem
     - df
-  - (S) Viewing Processes
+  - (18) Viewing Processes
     - ps
     - top (interactive)
-  - (T) Controlling Processes
+  - (19) Controlling Processes
     - kill
-  - (U) Scheduling Jobs
+  - (20) Scheduling Jobs
     - sleep
     - crontab
     - at (optional)
     - watch (interactive)
-  - (V) User and His Environment
+  - (21) User and His Environment
     - whoami
     - id
     - printenv
-  - (W) User Account Management
+  - (22) User Account Management
     - passwd
-  - (X) Math and Calculations
+  - (23) Math and Calculations
     - expr
-  - (Y) Dates and Times
+  - (24) Dates and Times
     - time
     - date
-  - (Z) Graphics
+  - (25) Graphics
     - convert
   - Installing Software
     - apt
@@ -129,7 +113,7 @@
   - History
     - history
   - Getting Help
-- Scripting (or just 'Shell')
+- Shell
   - [x] (00) Quoting
   - [x] (01) Wildcards
   - [x] (02) Brace Expansion
@@ -162,6 +146,8 @@
   - (29) case/switch
   - (30) Getting Options
   - [wip] (31) Shortcuts
+  
+  - (Superuser)
 - File Editors
   - nano  (interactive)
   - vim   (interactive)
