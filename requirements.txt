@@ -4,3 +4,7 @@ flask-sqlalchemy
 pandas
 numpy
 gunicorn
+
+# apache beam
+apache-beam
+apache-beam[interactive]
